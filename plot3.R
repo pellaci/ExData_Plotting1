@@ -20,7 +20,7 @@ ep <-
 
 ep <- subset(ep, Date == "1/2/2007" | Date == "2/2/2007")
 
-dev.copy(png, "plot3.png")
+png("plot3.png", width = 480, height = 480)
 
 with(
   ep,
